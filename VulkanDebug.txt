@@ -1,0 +1,737 @@
+FpDebug: Width = 800 ; Height = 600
+
+Found 2 GLFW Required Instance Extensions:
+	VK_KHR_surface
+	VK_KHR_win32_surface
+
+4 Instance Layers originally wanted:
+	VK_LAYER_LUNARG_core_validation
+	VK_LAYER_LUNARG_object_tracker
+	VK_LAYER_LUNARG_parameter_validation
+	VK_LAYER_NV_optimus
+vkEnumerateInstanceLayerProperties: Successful
+
+8 Instance Layers actually available:
+0x004020ba   1  'VK_LAYER_NV_optimus'  'NVIDIA Optimus layer'
+0x00401049   1  'GalaxyOverlayVkLayer'  'Galaxy Overlay Vulkan Layer'
+0x00401049   1  'GalaxyOverlayVkLayer_VERBOSE'  'Galaxy Overlay Vulkan Layer'
+0x00401049   1  'GalaxyOverlayVkLayer_DEBUG'  'Galaxy Overlay Vulkan Layer'
+0x00401049   1  'VK_LAYER_bandicam_helper'  'Vulkan Bandicam Helper'
+0x0040104a   1  'VK_LAYER_XSPLIT_64'  'XSplit Capture and Overlay Layer'
+0x00402088   1  'VK_LAYER_VALVE_steam_overlay'  'Steam Overlay Layer'
+0x00402088   1  'VK_LAYER_VALVE_steam_fossilize'  'Steam Pipeline Caching Layer'
+
+Will now ask for 1 Instance Layers:
+	VK_LAYER_NV_optimus
+
+3 Instance Extensions originally wanted:
+	VK_KHR_surface
+	VK_KHR_win32_surface
+	VK_EXT_debug_report
+vkEnumerateInstanceExtensionProperties: Successful
+
+15 Instance Extensions actually available:
+0x00000019  'VK_KHR_surface'
+0x00000005  'VK_KHR_win32_surface'
+0x00000001  'VK_KHR_external_memory_capabilities'
+0x00000001  'VK_KHR_external_semaphore_capabilities'
+0x00000001  'VK_KHR_external_fence_capabilities'
+0x00000002  'VK_KHR_get_physical_device_properties2'
+0x00000001  'VK_KHR_get_surface_capabilities2'
+0x00000001  'VK_KHR_device_group_creation'
+0x00000003  'VK_EXT_swapchain_colorspace'
+0x00000017  'VK_KHR_display'
+0x00000001  'VK_KHR_get_display_properties2'
+0x00000001  'VK_KHR_surface_protected_capabilities'
+0x0000000a  'VK_EXT_debug_report'
+0x00000002  'VK_EXT_debug_utils'
+0x00000001  'VK_NV_external_memory_capabilities'
+
+Will now ask for 3 Instance Extensions
+	VK_KHR_surface
+	VK_KHR_win32_surface
+	VK_EXT_debug_report
+vkCreateInstance: Successful
+glfwCreateWindowSurface: Successful
+vkEnumeratePhysicalDevices - 1: Successful
+
+2 physical devices found.
+vkEnumeratePhysicalDevices - 2: Successful
+ 
+
+Device  0:
+	API version: 4202682
+	Driver version: 4202682
+	Vendor ID: 0x10de
+	Device ID: 0x1ed0
+	Physical Device Type: 2 = (Discrete GPU)
+	Device Name: NVIDIA GeForce RTX 2080
+	Pipeline Cache Size: 74
+ 
+
+Device  1:
+	API version: 4202673
+	Driver version: 4202673
+	Vendor ID: 0x8086
+	Device ID: 0x3e98
+	Physical Device Type: 1 = (Integrated GPU)
+	Device Name: Intel(R) UHD Graphics 630
+	Pipeline Cache Size: 241
+Device #0 selected ('NVIDIA GeForce RTX 2080')
+
+Physical Device Features:
+geometryShader =  1
+tessellationShader =  1
+multiDrawIndirect =  1
+wideLines =  1
+largePoints =  1
+multiViewport =  1
+occlusionQueryPrecise =  1
+pipelineStatisticsQuery =  1
+shaderFloat64 =  1
+shaderInt64 =  1
+shaderInt16 =  1
+
+Image Formats Checked:
+Format VK_FORMAT_R32G32B32A32_SFLOAT: 0x0001d401 0x0001dd83  0x00000058
+Format VK_FORMAT_R8G8B8A8_UNORM: 0x0001d401 0x0001dd83  0x20000058
+Format VK_FORMAT_B8G8R8A8_UNORM: 0x0001d401 0x0001dd83  0x00000058
+Format VK_FORMAT_B8G8R8A8_SRGB: 0x0001d401 0x0001dd81  0x00000000
+
+5 Memory Types:
+Memory  0: 
+Memory  1:  DeviceLocal
+Memory  2:  HostVisible HostCoherent
+Memory  3:  HostVisible HostCoherent HostCached
+Memory  4:  DeviceLocal HostVisible HostCoherent
+
+3 Memory Heaps:
+Heap 0:  size = 0xf4a00000 DeviceLocal
+Heap 1:  size = 0xf9ce9000
+Heap 2:  size = 0x0d600000 DeviceLocal
+
+Found 3 Queue Families:
+	0: Queue Family Count = 16  ;    Graphics Compute Transfer
+	1: Queue Family Count =  2  ;    Transfer
+	2: Queue Family Count =  8  ;    Compute Transfer
+vkEnumerateDeviceLayerProperties: Successful
+
+4 physical device layers enumerated:
+0x004020ba   1  'VK_LAYER_NV_optimus'  'NVIDIA Optimus layer'
+vkEnumerateDeviceExtensionProperties: Successful
+	0 device extensions enumerated for 'VK_LAYER_NV_optimus':
+
+0x00401049   1  'VK_LAYER_bandicam_helper'  'Vulkan Bandicam Helper'
+vkEnumerateDeviceExtensionProperties: Successful
+	0 device extensions enumerated for 'VK_LAYER_bandicam_helper':
+
+0x0040104a   1  'VK_LAYER_XSPLIT_64'  'XSplit Capture and Overlay Layer'
+vkEnumerateDeviceExtensionProperties: Successful
+	0 device extensions enumerated for 'VK_LAYER_XSPLIT_64':
+
+0x004020ba   1  'VK_LAYER_NV_optimus'  'NVIDIA Optimus layer'
+vkEnumerateDeviceExtensionProperties: Successful
+	0 device extensions enumerated for 'VK_LAYER_NV_optimus':
+
+vkCreateLogicalDevice: Successful
+vkCreateBuffer: Successful
+Buffer vmr.size = 6912
+Buffer vmr.alignment = 256
+Buffer vmr.memoryTypeBits = 0x0000001f
+
+***** Found given memory flag (0x00000002) and type (0x0000001f): i = 2 *****
+vkAllocateMemory: Successful
+vkBindBufferMemory: Successful
+vkCreateBuffer: Successful
+Buffer vmr.size = 6912
+Buffer vmr.alignment = 256
+Buffer vmr.memoryTypeBits = 0x0000001f
+
+***** Found given memory flag (0x00000002) and type (0x0000001f): i = 2 *****
+vkAllocateMemory: Successful
+vkBindBufferMemory: Successful
+vkCreateBuffer: Successful
+Buffer vmr.size = 6912
+Buffer vmr.alignment = 256
+Buffer vmr.memoryTypeBits = 0x0000001f
+
+***** Found given memory flag (0x00000002) and type (0x0000001f): i = 2 *****
+vkAllocateMemory: Successful
+vkBindBufferMemory: Successful
+vkCreateBuffer: Successful
+Buffer vmr.size = 6912
+Buffer vmr.alignment = 256
+Buffer vmr.memoryTypeBits = 0x0000001f
+
+***** Found given memory flag (0x00000002) and type (0x0000001f): i = 2 *****
+vkAllocateMemory: Successful
+vkBindBufferMemory: Successful
+vkCreateBuffer: Successful
+Buffer vmr.size = 256
+Buffer vmr.alignment = 256
+Buffer vmr.memoryTypeBits = 0x0000001f
+
+***** Found given memory flag (0x00000002) and type (0x0000001f): i = 2 *****
+vkAllocateMemory: Successful
+vkBindBufferMemory: Successful
+vkCreateBuffer: Successful
+Buffer vmr.size = 6912
+Buffer vmr.alignment = 256
+Buffer vmr.memoryTypeBits = 0x0000001f
+
+***** Found given memory flag (0x00000002) and type (0x0000001f): i = 2 *****
+vkAllocateMemory: Successful
+vkBindBufferMemory: Successful
+vkCreateBuffer: Successful
+Buffer vmr.size = 1024
+Buffer vmr.alignment = 256
+Buffer vmr.memoryTypeBits = 0x0000001f
+
+***** Found given memory flag (0x00000002) and type (0x0000001f): i = 2 *****
+vkAllocateMemory: Successful
+vkBindBufferMemory: Successful
+vkCreateBuffer: Successful
+Buffer vmr.size = 6912
+Buffer vmr.alignment = 256
+Buffer vmr.memoryTypeBits = 0x0000001f
+
+***** Found given memory flag (0x00000002) and type (0x0000001f): i = 2 *****
+vkAllocateMemory: Successful
+vkBindBufferMemory: Successful
+vkCreateBuffer: Successful
+Buffer vmr.size = 512
+Buffer vmr.alignment = 256
+Buffer vmr.memoryTypeBits = 0x0000001f
+
+***** Found given memory flag (0x00000002) and type (0x0000001f): i = 2 *****
+vkAllocateMemory: Successful
+vkBindBufferMemory: Successful
+vkCreateBuffer: Successful
+Buffer vmr.size = 512
+Buffer vmr.alignment = 256
+Buffer vmr.memoryTypeBits = 0x0000001f
+
+***** Found given memory flag (0x00000002) and type (0x0000001f): i = 2 *****
+vkAllocateMemory: Successful
+vkBindBufferMemory: Successful
+InitDataBuffer: Successful
+vkCreateBuffer: Successful
+Buffer vmr.size = 256
+Buffer vmr.alignment = 256
+Buffer vmr.memoryTypeBits = 0x0000001f
+
+***** Found given memory flag (0x00000002) and type (0x0000001f): i = 2 *****
+vkAllocateMemory: Successful
+vkBindBufferMemory: Successful
+InitDataBuffer: Successful
+vkCreateBuffer: Successful
+Buffer vmr.size = 256
+Buffer vmr.alignment = 256
+Buffer vmr.memoryTypeBits = 0x0000001f
+
+***** Found given memory flag (0x00000002) and type (0x0000001f): i = 2 *****
+vkAllocateMemory: Successful
+vkBindBufferMemory: Successful
+Init05MyIndexDataBufferBuffer: Successful
+vkCreateCommandPool -- Graphics: Successful
+vkCreateCommandPool -- Transfer: Successful
+vkAllocateCommandBuffers - 1: Successful
+vkAllocateCommandBuffers - 2: Successful
+vkCreateSampler: Successful
+Image size found: 800 x 600
+vkCreateImage: Successful
+Image vmr.size = 1920000
+Image vmr.alignment = 32
+Image vmr.memoryTypeBits = 0x0000001f
+
+***** Found given memory flag (0x00000002) and type (0x0000001f): i = 2 *****
+vkAllocateMemory: Successful
+vkBindImageMemory: Successful
+Subresource Layout:
+	offset = 0
+	size = 1920000
+	rowPitch = 3200
+	arrayPitch = 1920000
+	depthPitch = 1920000
+vkCreateImage: Successful
+Texture vmr.size = 2048000
+Texture vmr.alignment = 1024
+Texture vmr.memoryTypeBits = 0x00000003
+
+***** Found given memory flag (0x00000001) and type (0x00000003): i = 1 *****
+vkAllocateMemory: Successful
+vkBindImageMemory: Successful
+Init07TextureBuffer -- vkBeginCommandBuffer: Successful
+Init07TextureBuffer -- vkEndCommandBuffer: Successful
+vkQueueSubmit: Successful
+vkQueueWaitIdle: Successful
+vkCreateImageView: Successful
+Init07TextureBuffer: Successful
+vkCreateSampler: Successful
+Image size found: 240 x 180
+vkCreateImage: Successful
+Image vmr.size = 172800
+Image vmr.alignment = 32
+Image vmr.memoryTypeBits = 0x0000001f
+
+***** Found given memory flag (0x00000002) and type (0x0000001f): i = 2 *****
+vkAllocateMemory: Successful
+vkBindImageMemory: Successful
+Subresource Layout:
+	offset = 0
+	size = 172800
+	rowPitch = 960
+	arrayPitch = 172800
+	depthPitch = 172800
+vkCreateImage: Successful
+Texture vmr.size = 245760
+Texture vmr.alignment = 1024
+Texture vmr.memoryTypeBits = 0x00000003
+
+***** Found given memory flag (0x00000001) and type (0x00000003): i = 1 *****
+vkAllocateMemory: Successful
+vkBindImageMemory: Successful
+Init07TextureBuffer -- vkBeginCommandBuffer: Successful
+Init07TextureBuffer -- vkEndCommandBuffer: Successful
+vkQueueSubmit: Successful
+vkQueueWaitIdle: Successful
+vkCreateImageView: Successful
+Init07TextureBuffer: Successful
+vkCreateSampler: Successful
+Image size found: 240 x 180
+vkCreateImage: Successful
+Image vmr.size = 172800
+Image vmr.alignment = 32
+Image vmr.memoryTypeBits = 0x0000001f
+
+***** Found given memory flag (0x00000002) and type (0x0000001f): i = 2 *****
+vkAllocateMemory: Successful
+vkBindImageMemory: Successful
+Subresource Layout:
+	offset = 0
+	size = 172800
+	rowPitch = 960
+	arrayPitch = 172800
+	depthPitch = 172800
+vkCreateImage: Successful
+Texture vmr.size = 245760
+Texture vmr.alignment = 1024
+Texture vmr.memoryTypeBits = 0x00000003
+
+***** Found given memory flag (0x00000001) and type (0x00000003): i = 1 *****
+vkAllocateMemory: Successful
+vkBindImageMemory: Successful
+Init07TextureBuffer -- vkBeginCommandBuffer: Successful
+Init07TextureBuffer -- vkEndCommandBuffer: Successful
+vkQueueSubmit: Successful
+vkQueueWaitIdle: Successful
+vkCreateImageView: Successful
+Init07TextureBuffer: Successful
+vkCreateSampler: Successful
+Image size found: 240 x 180
+vkCreateImage: Successful
+Image vmr.size = 172800
+Image vmr.alignment = 32
+Image vmr.memoryTypeBits = 0x0000001f
+
+***** Found given memory flag (0x00000002) and type (0x0000001f): i = 2 *****
+vkAllocateMemory: Successful
+vkBindImageMemory: Successful
+Subresource Layout:
+	offset = 0
+	size = 172800
+	rowPitch = 960
+	arrayPitch = 172800
+	depthPitch = 172800
+vkCreateImage: Successful
+Texture vmr.size = 245760
+Texture vmr.alignment = 1024
+Texture vmr.memoryTypeBits = 0x00000003
+
+***** Found given memory flag (0x00000001) and type (0x00000003): i = 1 *****
+vkAllocateMemory: Successful
+vkBindImageMemory: Successful
+Init07TextureBuffer -- vkBeginCommandBuffer: Successful
+Init07TextureBuffer -- vkEndCommandBuffer: Successful
+vkQueueSubmit: Successful
+vkQueueWaitIdle: Successful
+vkCreateImageView: Successful
+Init07TextureBuffer: Successful
+vkCreateSampler: Successful
+Image size found: 240 x 180
+vkCreateImage: Successful
+Image vmr.size = 172800
+Image vmr.alignment = 32
+Image vmr.memoryTypeBits = 0x0000001f
+
+***** Found given memory flag (0x00000002) and type (0x0000001f): i = 2 *****
+vkAllocateMemory: Successful
+vkBindImageMemory: Successful
+Subresource Layout:
+	offset = 0
+	size = 172800
+	rowPitch = 960
+	arrayPitch = 172800
+	depthPitch = 172800
+vkCreateImage: Successful
+Texture vmr.size = 245760
+Texture vmr.alignment = 1024
+Texture vmr.memoryTypeBits = 0x00000003
+
+***** Found given memory flag (0x00000001) and type (0x00000003): i = 1 *****
+vkAllocateMemory: Successful
+vkBindImageMemory: Successful
+Init07TextureBuffer -- vkBeginCommandBuffer: Successful
+Init07TextureBuffer -- vkEndCommandBuffer: Successful
+vkQueueSubmit: Successful
+vkQueueWaitIdle: Successful
+vkCreateImageView: Successful
+Init07TextureBuffer: Successful
+vkCreateSampler: Successful
+Image size found: 240 x 180
+vkCreateImage: Successful
+Image vmr.size = 172800
+Image vmr.alignment = 32
+Image vmr.memoryTypeBits = 0x0000001f
+
+***** Found given memory flag (0x00000002) and type (0x0000001f): i = 2 *****
+vkAllocateMemory: Successful
+vkBindImageMemory: Successful
+Subresource Layout:
+	offset = 0
+	size = 172800
+	rowPitch = 960
+	arrayPitch = 172800
+	depthPitch = 172800
+vkCreateImage: Successful
+Texture vmr.size = 245760
+Texture vmr.alignment = 1024
+Texture vmr.memoryTypeBits = 0x00000003
+
+***** Found given memory flag (0x00000001) and type (0x00000003): i = 1 *****
+vkAllocateMemory: Successful
+vkBindImageMemory: Successful
+Init07TextureBuffer -- vkBeginCommandBuffer: Successful
+Init07TextureBuffer -- vkEndCommandBuffer: Successful
+vkQueueSubmit: Successful
+vkQueueWaitIdle: Successful
+vkCreateImageView: Successful
+Init07TextureBuffer: Successful
+vkCreateSampler: Successful
+Image size found: 240 x 180
+vkCreateImage: Successful
+Image vmr.size = 172800
+Image vmr.alignment = 32
+Image vmr.memoryTypeBits = 0x0000001f
+
+***** Found given memory flag (0x00000002) and type (0x0000001f): i = 2 *****
+vkAllocateMemory: Successful
+vkBindImageMemory: Successful
+Subresource Layout:
+	offset = 0
+	size = 172800
+	rowPitch = 960
+	arrayPitch = 172800
+	depthPitch = 172800
+vkCreateImage: Successful
+Texture vmr.size = 245760
+Texture vmr.alignment = 1024
+Texture vmr.memoryTypeBits = 0x00000003
+
+***** Found given memory flag (0x00000001) and type (0x00000003): i = 1 *****
+vkAllocateMemory: Successful
+vkBindImageMemory: Successful
+Init07TextureBuffer -- vkBeginCommandBuffer: Successful
+Init07TextureBuffer -- vkEndCommandBuffer: Successful
+vkQueueSubmit: Successful
+vkQueueWaitIdle: Successful
+vkCreateImageView: Successful
+Init07TextureBuffer: Successful
+vkCreateSampler: Successful
+Image size found: 79 x 79
+vkCreateImage: Successful
+Image vmr.size = 25280
+Image vmr.alignment = 32
+Image vmr.memoryTypeBits = 0x0000001f
+
+***** Found given memory flag (0x00000002) and type (0x0000001f): i = 2 *****
+vkAllocateMemory: Successful
+vkBindImageMemory: Successful
+Subresource Layout:
+	offset = 0
+	size = 25280
+	rowPitch = 320
+	arrayPitch = 25280
+	depthPitch = 25280
+vkCreateImage: Successful
+Texture vmr.size = 40960
+Texture vmr.alignment = 1024
+Texture vmr.memoryTypeBits = 0x00000003
+
+***** Found given memory flag (0x00000001) and type (0x00000003): i = 1 *****
+vkAllocateMemory: Successful
+vkBindImageMemory: Successful
+Init07TextureBuffer -- vkBeginCommandBuffer: Successful
+Init07TextureBuffer -- vkEndCommandBuffer: Successful
+vkQueueSubmit: Successful
+vkQueueWaitIdle: Successful
+vkCreateImageView: Successful
+Init07TextureBuffer: Successful
+vkCreateSampler: Successful
+Image size found: 38 x 38
+vkCreateImage: Successful
+Image vmr.size = 6080
+Image vmr.alignment = 32
+Image vmr.memoryTypeBits = 0x0000001f
+
+***** Found given memory flag (0x00000002) and type (0x0000001f): i = 2 *****
+vkAllocateMemory: Successful
+vkBindImageMemory: Successful
+Subresource Layout:
+	offset = 0
+	size = 6080
+	rowPitch = 160
+	arrayPitch = 6080
+	depthPitch = 6080
+vkCreateImage: Successful
+Texture vmr.size = 12288
+Texture vmr.alignment = 1024
+Texture vmr.memoryTypeBits = 0x00000003
+
+***** Found given memory flag (0x00000001) and type (0x00000003): i = 1 *****
+vkAllocateMemory: Successful
+vkBindImageMemory: Successful
+Init07TextureBuffer -- vkBeginCommandBuffer: Successful
+Init07TextureBuffer -- vkEndCommandBuffer: Successful
+vkQueueSubmit: Successful
+vkQueueWaitIdle: Successful
+vkCreateImageView: Successful
+Init07TextureBuffer: Successful
+vkCreateSampler: Successful
+Image size found: 240 x 180
+vkCreateImage: Successful
+Image vmr.size = 172800
+Image vmr.alignment = 32
+Image vmr.memoryTypeBits = 0x0000001f
+
+***** Found given memory flag (0x00000002) and type (0x0000001f): i = 2 *****
+vkAllocateMemory: Successful
+vkBindImageMemory: Successful
+Subresource Layout:
+	offset = 0
+	size = 172800
+	rowPitch = 960
+	arrayPitch = 172800
+	depthPitch = 172800
+vkCreateImage: Successful
+Texture vmr.size = 245760
+Texture vmr.alignment = 1024
+Texture vmr.memoryTypeBits = 0x00000003
+
+***** Found given memory flag (0x00000001) and type (0x00000003): i = 1 *****
+vkAllocateMemory: Successful
+vkBindImageMemory: Successful
+Init07TextureBuffer -- vkBeginCommandBuffer: Successful
+Init07TextureBuffer -- vkEndCommandBuffer: Successful
+vkQueueSubmit: Successful
+vkQueueWaitIdle: Successful
+vkCreateImageView: Successful
+Init07TextureBuffer: Successful
+vkCreateSampler: Successful
+Image size found: 240 x 180
+vkCreateImage: Successful
+Image vmr.size = 172800
+Image vmr.alignment = 32
+Image vmr.memoryTypeBits = 0x0000001f
+
+***** Found given memory flag (0x00000002) and type (0x0000001f): i = 2 *****
+vkAllocateMemory: Successful
+vkBindImageMemory: Successful
+Subresource Layout:
+	offset = 0
+	size = 172800
+	rowPitch = 960
+	arrayPitch = 172800
+	depthPitch = 172800
+vkCreateImage: Successful
+Texture vmr.size = 245760
+Texture vmr.alignment = 1024
+Texture vmr.memoryTypeBits = 0x00000003
+
+***** Found given memory flag (0x00000001) and type (0x00000003): i = 1 *****
+vkAllocateMemory: Successful
+vkBindImageMemory: Successful
+Init07TextureBuffer -- vkBeginCommandBuffer: Successful
+Init07TextureBuffer -- vkEndCommandBuffer: Successful
+vkQueueSubmit: Successful
+vkQueueWaitIdle: Successful
+vkCreateImageView: Successful
+Init07TextureBuffer: Successful
+vkCreateSampler: Successful
+Image size found: 240 x 180
+vkCreateImage: Successful
+Image vmr.size = 172800
+Image vmr.alignment = 32
+Image vmr.memoryTypeBits = 0x0000001f
+
+***** Found given memory flag (0x00000002) and type (0x0000001f): i = 2 *****
+vkAllocateMemory: Successful
+vkBindImageMemory: Successful
+Subresource Layout:
+	offset = 0
+	size = 172800
+	rowPitch = 960
+	arrayPitch = 172800
+	depthPitch = 172800
+vkCreateImage: Successful
+Texture vmr.size = 245760
+Texture vmr.alignment = 1024
+Texture vmr.memoryTypeBits = 0x00000003
+
+***** Found given memory flag (0x00000001) and type (0x00000003): i = 1 *****
+vkAllocateMemory: Successful
+vkBindImageMemory: Successful
+Init07TextureBuffer -- vkBeginCommandBuffer: Successful
+Init07TextureBuffer -- vkEndCommandBuffer: Successful
+vkQueueSubmit: Successful
+vkQueueWaitIdle: Successful
+vkCreateImageView: Successful
+Init07TextureBuffer: Successful
+
+vkGetPhysicalDeviceSurfaceCapabilitiesKHR:
+	minImageCount = 2 ; maxImageCount = 8
+	currentExtent = 800 x 600
+	minImageExtent = 800 x 600
+	maxImageExtent = 800 x 600
+	maxImageArrayLayers = 1
+	supportedTransforms = 0x0001
+	currentTransform = 0x0001
+	supportedCompositeAlpha = 0x0001
+	supportedUsageFlags = 0x009f
+vkGetPhysicalDeviceSurfaceSupportKHR: Successful
+** This Surface is supported by the Graphics Queue **
+
+Found 3 Surface Formats:
+  0:       44                0	VK_COLOR_SPACE_SRGB_NONLINEAR_KHR
+  1:       50                0	VK_COLOR_SPACE_SRGB_NONLINEAR_KHR
+  2:       64                0	VK_COLOR_SPACE_SRGB_NONLINEAR_KHR
+
+Found 4 Present Modes:
+  0:        2	VK_PRESENT_MODE_FIFO_KHR
+  1:        3	VK_PRESENT_MODE_FIFO_RELAXED_KHR
+  2:        1	VK_PRESENT_MODE_MAILBOX_KHR
+  3:        0	VK_PRESENT_MODE_IMMEDIATE_KHR
+The Present Mode to use = 1
+vkCreateSwapchainKHR: Successful
+vkGetSwapchainImagesKHR - 0: Successful
+vkGetSwapchainImagesKHR - 1: Successful
+vkCreateImageView: Successful
+vkCreateImageView: Successful
+vkCreateImage: Successful
+
+***** Found given memory flag (0x00000001) and type (0x00000003): i = 1 *****
+vkAllocateMemory: Successful
+vkBindImageMemory: Successful
+vkCreateImageView: Successful
+vkCreateRenderPass: Successful
+vkCreateFrameBuffer - 0: Successful
+vkCreateFrameBuffer - 1: Successful
+vkCreateShaderModule: Successful
+Shader Module 'myverttl.spv' successfully loaded
+vkCreateShaderModule: Successful
+Shader Module 'myfragtl.spv' successfully loaded
+vkCreateShaderModule: Successful
+Shader Module 'myvert1.spv' successfully loaded
+vkCreateShaderModule: Successful
+Shader Module 'myfrag1.spv' successfully loaded
+vkCreateShaderModule: Successful
+Shader Module 'myvertbl.spv' successfully loaded
+vkCreateShaderModule: Successful
+Shader Module 'myfragbl.spv' successfully loaded
+vkCreateShaderModule: Successful
+Shader Module 'myverttr.spv' successfully loaded
+vkCreateShaderModule: Successful
+Shader Module 'myfragtr.spv' successfully loaded
+vkCreateShaderModule: Successful
+Shader Module 'myvertbr.spv' successfully loaded
+vkCreateShaderModule: Successful
+Shader Module 'myfragbr.spv' successfully loaded
+vkCreateShaderModule: Successful
+Shader Module 'myverth.spv' successfully loaded
+vkCreateShaderModule: Successful
+Shader Module 'myfragh.spv' successfully loaded
+vkCreateShaderModule: Successful
+Shader Module 'myvertsir.spv' successfully loaded
+vkCreateShaderModule: Successful
+Shader Module 'myfragsir.spv' successfully loaded
+vkCreateShaderModule: Successful
+Shader Module 'myvertfan.spv' successfully loaded
+vkCreateShaderModule: Successful
+Shader Module 'myfragfan.spv' successfully loaded
+vkCreateShaderModule: Successful
+Shader Module 'myvertbul.spv' successfully loaded
+vkCreateShaderModule: Successful
+Shader Module 'myfragbul.spv' successfully loaded
+vkCreateShaderModule: Successful
+Shader Module 'myvertstarts.spv' successfully loaded
+vkCreateShaderModule: Successful
+Shader Module 'myfragstarts.spv' successfully loaded
+vkCreateShaderModule: Successful
+Shader Module 'myvertstartbut.spv' successfully loaded
+vkCreateShaderModule: Successful
+Shader Module 'myfragstartbut.spv' successfully loaded
+vkCreateShaderModule: Successful
+Shader Module 'myvertgovers.spv' successfully loaded
+vkCreateShaderModule: Successful
+Shader Module 'myfraggovers.spv' successfully loaded
+vkCreateDescriptorPool: Successful
+vkCreateDescriptorSetLayout - 0: Successful
+vkCreateDescriptorSetLayout - 1: Successful
+vkCreateDescriptorSetLayout - 2: Successful
+vkCreateDescriptorSetLayout - 3: Successful
+vkCreateDescriptorSetLayout - 4: Successful
+vkCreateDescriptorSetLayout - 5: Successful
+vkCreateDescriptorSetLayout - 6: Successful
+vkCreateDescriptorSetLayout - 7: Successful
+vkCreateDescriptorSetLayout - 8: Successful
+vkCreateDescriptorSetLayout - 9: Successful
+vkCreateDescriptorSetLayout - 10: Successful
+vkCreateDescriptorSetLayout - 11: Successful
+vkCreateDescriptorSetLayout - 12: Successful
+vkCreateDescriptorSetLayout - 13: Successful
+vkCreateDescriptorSetLayout - 14: Successful
+vkCreateDescriptorSetLayout - 15: Successful
+vkCreateDescriptorSetLayout - 16: Successful
+vkCreateDescriptorSetLayout - 17: Successful
+vkCreateDescriptorSetLayout - 18: Successful
+vkCreateDescriptorSetLayout - 19: Successful
+vkCreateDescriptorSetLayout - 20: Successful
+vkCreateDescriptorSetLayout - 21: Successful
+vkAllocateDescriptorSets: Successful
+vkCreatePipelineLayout: 1: Successful
+vkCreateGraphicsPipelines: 1: Successful
+vkCreateGraphicsPipelines: 2: Successful
+vkCreateGraphicsPipelines: 3: Successful
+vkCreateGraphicsPipelines: 4: Successful
+vkCreateGraphicsPipelines: 5: Successful
+vkCreateGraphicsPipelines: 6: Successful
+vkCreateGraphicsPipelines: 7: Successful
+vkCreateGraphicsPipelines: 8: Successful
+vkCreateGraphicsPipelines: 9: Successful
+vkCreateGraphicsPipelines: 10: Successful
+vkCreateGraphicsPipelines: 11: Successful
+vkCreateGraphicsPipelines: 12: Successful
+
+***** RenderScene *****
+nextImageIndex = 0
+vkQueueSubmit: Successful
+vkWaitForFences: Successful
+vkQueuePresentKHR: Successful
+
+***** RenderScene *****
+nextImageIndex = 1
+vkQueueSubmit: Successful
+vkWaitForFences: Successful
+vkQueuePresentKHR: Successful
+Closing the GLFW window
+vkWaitIdle: Successful

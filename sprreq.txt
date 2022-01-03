@@ -1,0 +1,19 @@
+1. Speak about setup/lag
+Sprites:
+1. Background without the lights/fan sprite
+2. Bullet original resolution sprite
+3. Start screen with WASD to move + left click to fire
+4. Start button
+5. Game over screen
+Delivery timeline
+
+Busy from 22nd to 27th
+
+Who will post the game, the game page will be collectively designed!
+
+Space for firing //Send the bullet first
+Jump is parabolic //Done
+Jump is slow/parabolic //Done
+Jump duration// wrt button press //Done
+
+

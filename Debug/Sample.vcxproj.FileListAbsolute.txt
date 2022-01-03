@@ -1,0 +1,3 @@
+C:\Users\Administrator\source\repos\Tut3D\Debug\Sample.pdb
+C:\Users\Administrator\Documents\Sample2019\Debug\Sample.exe
+C:\Users\Administrator\Documents\Sample2019\Debug\Sample.pdb
