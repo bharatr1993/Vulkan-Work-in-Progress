@@ -32,4 +32,8 @@ I have also not explained the working in any manner. However, there are a few he
 
 Personally, I am yet to fix the coordinate system. So, no game!
 
+Explanation of the game:
+
+Left Mouse button to Spawn bugs, WASD to move
+
 Please like and share this repository!!!
