@@ -1,7 +1,7 @@
 # Vulkan-Work-in-Progress
 A game not yet complete
 
-This project is the result of a long time fascination of mine with Vulkan and endless hours od effort!
+This project is the result of a long time fascination of mine with Vulkan and endless hours of effort!
 
 Before I start taking credit, I give a huge thanks to Mike Bailey of CS Oregon State University (CS Department)
 
