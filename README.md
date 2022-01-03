@@ -17,7 +17,7 @@ Please note the following:
 
 4. The code uses Vulkan, GLFW3 for Display and OpenAL for Audio
 
-5. Finally, I would like to make it clear that there can and will not be a "A getting started with Vulkan in 30 min" guide. It took nearly 3 moths to get here
+5. Finally, I would like to make it clear that there can and will not be a "A getting started with Vulkan in 30 min" guide. It took nearly 3 months to get here
 
 6. Lots of unecessary junk is also present, collected from my previous attempts:-)
 
